@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Pizzeria</title>
+</head>
+<body class="site-body">
+   
+    <header class="site-header">
+     
+        <div class="site-header__blackout blackout"></div>
+        <nav>
+            <ul class="site-header__nav nav">
+                <li class="nav__item"><a class="nav__link" href="#start">Start</a></li>
+                <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
+                <li class="nav__item"><a class="nav__link" href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1 class="site-header__h1 heading--h1">Pizzeria</h1>
+        <a class="site-header__button btn btn--red btn--circle" href="#menu">Menu</a>
+    </header>
+    
+    <div class="site-body__social social">
+        <div class="social__item social__item--twitter"></div>
+        <div class="social__item social__item--youtube"></div>
+        <div class="social__item social__item--in"></div>
+        <div class="social__item social__item--facebook"></div>
+    </div>
+    <main>
+        <section class="site-section" id="start">
+            <h2 class="heading--h2">Start</h2>
+            <div class="container">
+                <div class="row">
+                    <p class="col col--md50">Pizza restaurant to miejsce, w którym klienci mogą zasmakować w pysznych i świeżych pizzach przygotowywanych na miejscu przez wykwalifikowanych kucharzy. Przy wejściu do pizzerii zwykle znajduje się obszerny i przestronny hol, gdzie klienci są witani przez przyjaznych pracowników, którzy zapraszają ich do zajęcia miejsca przy stolikach.
+                     Wewnątrz pizzerii panuje przyjemna i ciepła atmosfera, która sprzyja relaksowi i miłemu spędzeniu czasu w towarzystwie rodziny lub przyjaciół. W tle słychać przyjemną muzykę, a zapach pieczonej pizzy wypełnia całe pomieszczenie.
+                     Na ścianach pizzerii wiszą zdjęcia włoskich miast i krajobrazów, co dodaje lokalowi włoskiego charakteru. W tle można usłyszeć przyjemne rozmowy klientów oraz odgłosy pracy kucharzy, którzy przygotowują pizze z najwyższą starannością..</p>
+                    <p class="col col--md50">Na menu pizzerii znajduje się szeroki wybór pizz, począwszy od tradycyjnej Margherity, przez pizze z różnymi dodatkami, aż po wyjątkowe kompozycje stworzone przez kucharzy. Do każdej pizzy podawane są świeże składniki, a na życzenie klientów można zmienić ich skład lub zrezygnować z niektórych z nich.
+                   Klienci mogą również zamówić różnego rodzaju napoje, w tym wino i piwo, które idealnie komponują się z pizzą. Obsługa pizzerii zawsze stara się sprostać oczekiwaniom klientów i zapewnić im miłe doświadczenie kulinarne.</p>
+                </div>
+            </div>
+        </section>
+        <section class="site-section site-section--bg-color" id="menu">
+            <h2 class="heading--h2 text-color-white">Menu</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image"></div>
+                            <div class="image-box__text">Pizze: Margherita, Capricciosa, Quattro Formaggi, Diavola, Vegetariana, Marinara. </div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--next"></div>
+                            <div class="image-box__text">Sałatki: Caprese, Caesar, Grecka, Sałatka z rukolą i pomidorkami cherry, Sałatka z grillowanym kurczakiem.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image"></div>
+                            <div class="image-box__text">Przystawki: Krewetki w cieście, Bruschetta, Focaccia, Ser camembert z miodem i orzechami.</div>
+                        </div>
+                    </div>
+                    <div class="col col--md50 col--lg25">
+                        <div class="image-box">
+                            <div class="image-box__image image-box__image--next"></div>
+                            <div class="image-box__text">Makarony: Spaghetti Carbonara, Penne Arrabiata, Lasagne, Tagliatelle z kurczakiem i szpinakiem.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        </section>
+        <section class="site-contact" id="kontakt">
+            <div class="site-contact__blackout blackout"></div>
+            <h2 class="site-contact__h2 heading--h2">Kontakt</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form class="site-contact__form form">
+                            <label class="form__label" for="mail">Podaj Twój e-mail</label>
+                            <input class="form__item" id="mail">
+                            <label class="form__label" for="subject">Temat wiadomości</label>
+                            <input class="form__item" id="subject">
+                            <label class="form__label" for="message">Treść wiadomości</label>
+                            <textarea class="form__item" id="message" cols="15" rows="5"></textarea>
+                            <input class="form__item btn btn--outline" type="submit" value="Wyślij">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="site-body__cookies cookies hide">
+        <div class="cookies__text">
+            Informujemy, że korzystamy z informacji zapisanych w plikach cookies na urządzeniach końcowych użytkowników. Pliki te można kontrolować za pomocą ustawień przeglądarki internetowej. Dalsze korzystanie z naszego serwisu oznacza, iż akceptujesz pliki cookies.
+        </div>
+        <div class="cookies__close">
+            <a href="#" title="zaakceptuj i zamknij">X</a>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+               
+                <p class="col col--md33">Autor Strony: Konrad Studziński</p>
+                
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>
