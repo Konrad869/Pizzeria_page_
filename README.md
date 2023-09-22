@@ -1,1 +1,1 @@
-Strona BreadcrumbsPizzeria_page_ to strona reklamująca pizzernię technlogie wykorzystane do stworzenia strony to HTML ,CSS , SASS , Javascript  opraciu o metyrologię ITCSS strona jest w pełni responsywna . 
+Strona BreadcrumbsPizzeria_page_ to strona reklamująca pizzernię technlogie wykorzystane do stworzenia strony to HTML ,CSS , Scss , Javascript   w opraciu o metyrologię ITCSS i BEM  strona jest w pełni responsywna . 
