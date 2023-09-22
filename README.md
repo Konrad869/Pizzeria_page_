@@ -1,1 +1,1 @@
-Strona Pizzeria_page_ to strona reklamująca pizzernię technlogie wykorzystane do stworzenia strony to HTML ,CSS , Scss , Javascript   w opraciu o metyrologię ITCSS i BEM  strona jest w pełni responsywna . 
+Strona Pizzeria_page_ to strona reklamująca pizzernię technlogie wykorzystane do stworzenia strony to HTML ,CSS , Scss , Javascript   w opraciu o metyrologię ITCSS i BEM  strona jest w pełni responsywna i zoptimalizowana pod SEO . 
