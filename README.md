@@ -1,1 +1,1 @@
-The Pizzeria_page_ website is a website advertising a pizzeria, technologies using website creation to HTML, CSS, Scss, JavaScript based on ITCSS and BEM methylation, the website is fully responsive and SEO-friendly.
+The Pizzeria_page_ website is a website advertising a pizzeria, the technologies used are HTML, CSS, Scss, JavaScript based on ITCSS and BEM methylation, the website is fully responsive and optimized for SEO.
