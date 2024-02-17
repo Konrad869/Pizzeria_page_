@@ -4,7 +4,8 @@ Pizzeria_page_ is a website advertising a pizzeria, the technologies used are HT
 Tech
 
 
-JobOffers is developed using following technologies:
+ 
+Pizzeria_page_ is developed using following technologies:
 
 
  
